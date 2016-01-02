@@ -9,12 +9,7 @@ It is based on:
 * Firebase
 * Webpack
 
-
-Demo is deployed here:
-
-_____
-
-Or you can run it locally:
+To run the demo locally:
 
 ```
 npm install
@@ -32,7 +27,13 @@ npm install -g firebase-tools
 firebase deploy
 ```
 
+## angular2-firebase
 
+https://www.npmjs.com/package/angular2-firebase
+
+https://github.com/OasisDigital/angular2-firebase
+
+## Author
 
 Kyle Cordes http://kylecordes.com
 

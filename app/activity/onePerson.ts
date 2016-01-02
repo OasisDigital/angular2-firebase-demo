@@ -18,7 +18,9 @@ import {observableFirebaseObject, NgWhen} from 'angular2-firebase';
   <div>
     <b>Person {{id}}:</b>
     <p>{{ person | async | json }}</p>
-    <p *ngWhen="#p is person | async">{{p.name}}</p>
+    <p>
+      <span *ngWhen="#p is person | async">{{p.name}}</span>
+      (uses ngWhen)</p>
   </div>
   `,
   directives: [NgWhen]

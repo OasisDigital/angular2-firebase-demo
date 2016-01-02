@@ -19,9 +19,9 @@ import "style!css!bootstrap/dist/css/bootstrap.css";
 var template = `
   <div class="container">
       <a [routerLink]="['Welcome']">Welcome</a>
-      -
+      --
       <a [routerLink]="['Weather']">Weather</a>
-      -
+      --
       <a [routerLink]="['Activity']">Activity</a>
       <hr>
   </div>

@@ -7,6 +7,12 @@ import {OnePerson} from './onePerson.ts';
 var template = `
   <div class="container">
     <div class="row">
+      <div class="col-md-12">
+        <h1>Activity Example</h1>
+        <p>Explanation here</p>
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-4">
         <person-list></person-list>
       </div>
