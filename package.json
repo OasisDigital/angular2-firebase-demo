@@ -1,0 +1,37 @@
+{
+  "name": "a2-firebase-demo",
+  "version": "0.5.0",
+  "description": "angular2-firebase Demo",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "copyfiles -f node_modules/angular2/bundles/angular2-polyfills.js www",
+    "build": "webpack -p --colors --display-error-details --display-cached",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --content-base www --host 0.0.0.0 --inline --colors --display-error-details --display-cached"
+  },
+  "author": "Kyle Cordes <kyle.cordes@oasisdigital.com>",
+  "repository": "https://github.com/OasisDigital/angular2-firebase-demo",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.0",
+    "angular2-firebase": "0.5.0",
+    "bootstrap": "^3.3.6",
+    "firebase": "^2.3.2",
+    "reflect-metadata": "^0.1.2",
+    "zone.js": "^0.5.10"
+  },
+  "devDependencies": {
+    "copyfiles": "^0.2.1",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "imports-loader": "^0.6.5",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.5",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
