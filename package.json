@@ -1,6 +1,6 @@
 {
   "name": "a2-firebase-demo",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "angular2-firebase Demo",
   "main": "app.js",
   "scripts": {
@@ -13,25 +13,27 @@
   "repository": "https://github.com/OasisDigital/angular2-firebase-demo",
   "license": "Apache-2.0",
   "dependencies": {
-    "angular2": "^2.0.0-beta.0",
-    "angular2-firebase": "0.5.1",
+    "angular2": "^2.0.0-beta.14",
+    "angular2-firebase": "^0.6.0",
     "bootstrap": "^3.3.6",
-    "firebase": "^2.3.2",
+    "es6-shim": "^0.35.0",
+    "firebase": "^2.4.2",
     "reflect-metadata": "^0.1.2",
-    "zone.js": "^0.5.10"
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.6.10"
   },
   "devDependencies": {
     "copyfiles": "^0.2.1",
     "css-loader": "^0.23.1",
-    "exports-loader": "^0.6.2",
-    "extract-text-webpack-plugin": "^0.9.1",
+    "exports-loader": "^0.6.3",
+    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "imports-loader": "^0.6.5",
-    "style-loader": "^0.13.0",
-    "ts-loader": "^0.7.2",
-    "typescript": "^1.7.5",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.9",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
   }
 }

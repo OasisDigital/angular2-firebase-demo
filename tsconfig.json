@@ -8,5 +8,10 @@
         "sourceMap": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true
-    }
+    },
+    "files": [
+      "app/app.ts",
+      "typings/browser.d.ts",
+      "node_modules/angular2/typings/browser.d.ts"
+    ]
 }
