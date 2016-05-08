@@ -4,8 +4,8 @@ This sample application demonstrates use of the angular2-firebase package.
 It is based on:
 
 * Angular 2
-* angular2-firebase
-* Observables (from RxJS 5 / RxNext, via Angular 2)
+* angular2-firebase (unoffical Angular 2 - Firebase library)
+* Observables (from RxJS 5, via Angular 2)
 * Firebase
 * Webpack
 

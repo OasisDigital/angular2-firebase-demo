@@ -1,11 +1,11 @@
 // Firebase Observable Demo App
-// Kyle Cordes, Oasis Digital, November 2015
+// Kyle Cordes, Oasis Digital
 
 // This component lets the user turn the activity stream on and off.
 // It is off by default, so that the software does not generate a long
 // stream of activity in Firebase merely from being reloaded.
 
-import {Component, ChangeDetectorRef, OnDestroy} from 'angular2/core';
+import {Component, ChangeDetectorRef, OnDestroy} from '@angular/core';
 
 import {Generator} from './activityGenerator';
 

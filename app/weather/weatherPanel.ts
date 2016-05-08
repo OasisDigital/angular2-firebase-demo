@@ -1,10 +1,10 @@
 // Firebase Observable Demo App
-// Kyle Cordes, Oasis Digital, November 2015
+// Kyle Cordes, Oasis Digital
 
 // This component displays a single entry from Firebase on the screen.
 // there is an unsolved problem, noted below.
 
-import {Component, Input, OnInit} from 'angular2/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 
 import {observableFirebaseObject, observableFirebaseArray, NgWhen} from 'angular2-firebase';

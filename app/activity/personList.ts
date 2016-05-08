@@ -1,11 +1,11 @@
 // Firebase Observable Demo App
-// Kyle Cordes, Oasis Digital, November 2015
+// Kyle Cordes, Oasis Digital
 
 // Most notably here, there is nothing necessary to unsubscribe from the
 // Firebase events. That is all handled using the observable, via the template
 // and the async pipe.
 
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 import {Observable} from 'rxjs/Observable';
 
 import 'rxjs/add/operator/debounceTime';

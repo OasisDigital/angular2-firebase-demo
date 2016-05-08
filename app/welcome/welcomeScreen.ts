@@ -1,4 +1,7 @@
-import {Component} from 'angular2/core';
+// Firebase Observable Demo App
+// Kyle Cordes, Oasis Digital
+
+import {Component} from '@angular/core';
 
 var template = `
   <div class="container">

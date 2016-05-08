@@ -1,5 +1,5 @@
 // Firebase Observable Demo App
-// Kyle Cordes, Oasis Digital, November 2015
+// Kyle Cordes, Oasis Digital
 
 // This generate some activity, changes in a Firebase database,
 // so that things are changing making the point of an observable obvious.

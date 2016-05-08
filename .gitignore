@@ -1,4 +1,5 @@
 node_modules
-*.sublime-workspace
-etc
+typings
 angular2-polyfills.js
+poly.js
+etc
