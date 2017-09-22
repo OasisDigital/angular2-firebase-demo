@@ -1,4 +1,18 @@
-# Angular2 Firebase Demo
+# DEPRECATED - Angular 2 Firebase Tools Demo
+
+## Use this instead!
+
+There is an official Angular 2 <-> Firebase library now (as of 2017) in fine
+condition for real use, implemented by the team at Firebase / Google:
+
+https://github.com/angular/angularfire2
+
+You should probably use that library. It certainly has more documentation
+and features than this one.
+
+Therefore, this repository remains solely as a historical artifact.
+
+# Angular2 Firebase Demo (old)
 
 This sample application demonstrates use of the angular2-firebase package.
 It is based on:
